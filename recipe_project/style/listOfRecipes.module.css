@@ -1,0 +1,28 @@
+
+
+
+.listOfRecipes{
+display: flex;
+flex-direction: column;
+background-color: white;
+overflow-y: scroll;
+}
+
+.singleRecipe{
+    background: linear-gradient(40deg, white, #ff7b004b ,white);
+    border: groove;
+     display: flex; 
+     justify-content: space-between;
+     border-radius: 10px;
+     margin: 1%;
+
+}
+
+.recipeTitle{
+    margin: auto;
+}
+
+.recipeImg{
+    width: 15%;
+border-radius: 40px;
+}

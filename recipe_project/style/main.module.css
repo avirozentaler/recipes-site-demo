@@ -1,0 +1,51 @@
+.main {
+    display: grid;
+    grid-template-columns: 25vw 45vw 29vw;
+    background-color: rgba(255, 255, 255, 0.851);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes changeBackground {
+    
+0% {
+    background-image: url('../../pic1.jpg');
+}
+
+20% {
+    background-image: url('../../pic2.jpg');
+}
+
+40% {
+    background-image: url('../../pic3.jpg');
+}
+
+60% {
+    background-image: url('../../pic4.jpg');
+}
+
+80%{
+    background-image: url('../../pic5.jpg');
+}
+
+90% {
+    background-image: url('../../pic6.jpg');
+}
+}

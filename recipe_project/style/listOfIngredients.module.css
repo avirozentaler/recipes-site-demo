@@ -1,0 +1,76 @@
+.listOfIngredients {
+    display: grid;
+    grid-template-rows: 10vh 60vh 5vh;
+}
+
+
+.header {
+    background: linear-gradient(50deg, white, #ff7b0038, white);
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 5px;
+
+
+}
+.header span {
+    /* border: solid; */
+    margin: auto;
+    display: flex;
+}
+
+.changeAmount {
+    
+}
+
+.changeAmount button {
+    font-size: large;
+    border: none;
+    display: inline;
+    border-radius: 50px;
+    height: 4vh;
+    width: 2.5vw;
+    margin: 3%;
+}
+
+
+.addToStorageIcon {
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    color: red;
+    font-size: x-large;
+}
+
+.ingredients {
+    display: flex;  
+    /* flex-direction: row; */
+    flex-wrap:wrap;
+    overflow-y:scroll ;
+}
+
+.singleIngredient{
+    display: flex;
+    width: 45%;
+    margin: 1%;
+    margin-left: 4%;
+}
+
+
+.bottomIngredients {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.bottomIngredients p{
+    background: #ff7b0038;
+
+    height: 60%;
+    width: 40%;
+    margin: auto;
+    border: groove;
+    border-radius: 10px;
+text-align: center;
+
+}

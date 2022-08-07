@@ -1,0 +1,75 @@
+.shopList {
+    background-color: rgba(0, 0, 0, 0.04);
+    display: grid;
+    grid-template-rows: 8vh 65vh 7vh;
+}
+
+.titleOfShoppingList{
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    margin: auto;
+
+}
+
+
+.bodyOfShoppingList {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.productDiv {
+    background-color: rgb(255, 255, 255);
+    border: groove;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+   min-width: 20vw;
+   max-width: 100%;
+    height: 7vh;
+    margin: 1%;
+
+}
+
+.productDiv p {
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.amountInput {
+
+    width: 2vw;
+    /* height: 2vh; */
+
+
+}
+
+.deleteButton {
+    border: none;
+    /* height: 3vh; */
+    border-radius: 6px;
+}
+
+.bottomOfShoppingList {
+    border-radius: 10px;
+}
+
+
+.productDiv:hover>.deleteButton {
+    background-color: rgba(255, 0, 0, 0.717);
+}
+
+
+.bottomOfShoppingList
+{
+  margin: auto;    
+}
+
+.confirmShoppingList
+{
+border-radius: 5px; 
+}

@@ -1,0 +1,17 @@
+
+body
+{
+    margin:unset;
+}
+
+#manager{
+    height: 100vh;
+    width: 100vw;
+   display: grid;
+   grid-template-rows: 15% 80% 5%;
+}
+
+
+
+
+

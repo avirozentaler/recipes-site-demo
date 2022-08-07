@@ -1,0 +1,91 @@
+.deshboard {
+    /* border: groove; */
+    display: grid;
+    grid-template-columns: 33vw 33vw 34vw;
+    background-color: #f9cca238;
+
+}
+
+
+
+.siteDescription {
+    font-family:cursive;
+font-size: xx-large;
+    margin: auto;
+}
+
+
+.searchRecipesDiv {
+    background-color: antiquewhite;
+    display: flex;
+    border-radius: 20px;
+    margin: auto;
+    height: 60%;
+    width: 90%;
+}
+
+.searchInput {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.631);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    width: 80%;
+    height: 100%;
+
+}
+
+.searchButton {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.631);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    text-align: center;
+    background: linear-gradient(50deg, white, #ff7b008c);
+    width: 20%;
+    height: 100%;
+}
+
+
+
+
+
+
+.wishListDiv{
+   
+    display:inline-flex;
+    align-items: center;
+  position: relative;
+  
+}
+.wishList{
+position: absolute;
+    border: groove;
+    border-radius: 10px;
+   
+   max-width:  50vw;
+   max-height: 50vh;  
+   margin-top: 10vh;
+overflow-y: scroll;
+
+}
+.wishListIcon{
+    margin: auto;
+    color: rgba(255, 0, 0, 0.834);
+    font-size:xx-large;
+}
+
+
+
+.hidden
+{
+    display: none;
+}
+
+
+.brown
+{
+    border: none;
+    background-color: black;
+}
